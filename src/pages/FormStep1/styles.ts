@@ -37,16 +37,17 @@ export const Container = styled.div`
             background-color: #1D3354;
         }
     }
-
-    button{
-        background-color: #25cd89;
-        color: #fff;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 20px 40px;
-        border: 0;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-top: 30px;
-    }
+    
+    `;
+    
+export const Button = styled.button`
+background-color: #25cd89;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+padding: 20px 40px;
+border: 0;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 30px;
 `;
