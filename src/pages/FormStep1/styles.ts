@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     p{
-        font-size: 14px;
+        font-size: 16px;
         color: #ACBED8;
     }
 
@@ -16,11 +16,11 @@ export const Container = styled.div`
         height: 1px;
         border: 0;
         background-color: #467599;
-        margin: 40px 0;
+        margin: 30px 0px;
     }
 
     label{
-        font-size: 14px;
+        font-size: 16px;
 
         input{
             display:block;

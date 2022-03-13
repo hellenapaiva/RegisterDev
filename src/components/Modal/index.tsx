@@ -7,13 +7,12 @@ const Modal = ( { closeModal } : any) => {
 return (
         <>
         <ModalStyled>
-        
-              <CloseButtonStyled onClick={closeModal}>
+            <CloseButtonStyled onClick={closeModal}>
                 <AiOutlineClose />
-              </CloseButtonStyled>
-        
-          <TextModal>Preencha os dados.</TextModal>
-        
+            </CloseButtonStyled>
+            <TextModal>
+                Preencha os dados.
+            </TextModal>
         </ModalStyled>
       </>
 
