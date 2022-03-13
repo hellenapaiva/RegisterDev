@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import Modal from 'components/Modal';
 import { SelectOption } from 'components/SelectOption';
 import { Link } from 'react-router-dom';
-import {BiArrowBack} from 'react-icons/bi';
+
 
 export const FormStep2 = () => {
 
@@ -22,6 +22,7 @@ export const FormStep2 = () => {
                 type: FormActions.setCurrentStep, 
                 payload: 2 });
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     const handleNextStep = () => {
@@ -44,7 +45,7 @@ export const FormStep2 = () => {
             <C.Container>
                 <p>Passo 2/3</p>
                 <h1>{state.name}, o que melhor descreve você?</h1>
-                <p>Escolha a opção que condiz com o seu estado profissional.</p>
+                <p>Escolha a opção que condiz com o seu momento profissional.</p>
 
                 <hr/>
 
