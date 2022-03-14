@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Theme } from 'components/Theme';
 import { useForm, FormActions } from 'contexts/FormContext';
 import * as C from './styles';
@@ -7,7 +7,7 @@ import Modal from 'components/Modal';
 
 export const FormStep3 = () => {
 
-    const navigate = useNavigate();
+
     const { state, dispatch } = useForm();
     const [isModalOpen, setIsModalOpen] = useState(false);
 
